@@ -12,7 +12,9 @@ The neural network with input states and output actions consisted of two fully c
 It was found that increasing epsilon decay to 0.95 and using a minimum epsilon of 0.001 helped increase the speed in which the agent learned the environment
 
 ### Metrics
-Below is a graph of the reward for various successful runs using different parameters. The reward steadily increases for each run and generally takes around 250 episodes to solve the environment while the double DQN takes only 150 indicating a significant improvement.
+Below is a graph of the reward for various successful runs using different parameters. The reward steadily increases for each run and generally takes around 250 episodes to solve the environment while the double DQN takes only 150 episodes indicating a significant improvement in speed.
+Key: Left - 32 units, middle - 64 units, right - Double DQN
+
 ![](Report/32_units.png)![](Report/64_units.png)![](Report/32_units_ddqn.png)
 
 ### Future Enhancements
